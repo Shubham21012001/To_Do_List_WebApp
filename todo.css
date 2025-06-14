@@ -1,0 +1,120 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, rgb(67, 99, 225), rgb(89, 229, 33));
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.todo-app h2 {
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.todo-app h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e7e7e7;
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.input-row input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.input-row button {
+  background-color: #9bdfdf; 
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-row button:hover {
+  background-color: #5a9ee3; 
+}
+
+
+.input-row button img {
+  width: 24px;
+}
+
+ul li{
+  list-style:none;
+  font-size:17px;
+  padding: 12px 8px 12px 50px;
+  user-select:none;
+  cursor:pointer; 
+  position: relative; 
+}
+ul li::before{
+  content:'';
+  position:absolute;
+  height:28px;
+  width:28px;
+  border-radius:50%;
+  background-image: url(unchecked.png);
+  background-size:cover;
+  background-position: center;
+   top:8px;
+   left:8px;
+}
+
+ul li.checked{
+  color:#838685a6;
+  text-decoration:line-through;
+}
+ul li.checked::before{
+  background-image:url(black-checkmark.png);
+}
+
+ul li span{
+  position: absolute;
+  right: 20px;
+  top:5px;
+  width:40px;
+  height:40px;
+  font-size:22px;
+  color:#555;
+  line-height: 40px;
+  text-align:center;
+  border-radius: 50%;
+}
+ul li span:hover{
+  background:#edeef0;
+}
