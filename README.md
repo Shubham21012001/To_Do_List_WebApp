@@ -25,4 +25,4 @@ Yes, it's **just a box where you type stuff and press Enter**. But hey... it wor
 4. Task added.
 5. Feel productive 😎 (even if you don't do anything)
 
-![image alt](https://github.com/Shubham21012001/To_Do_List_WebApp/blob/d142aeff07c86859798d0358a0a1ef833953aba1/Screenshot%202025-06-16%20010646.png)
+![To-Do List Screenshot](https://github.com/Shubham21012001/To_Do_List_WebApp/blob/d142aeff07c86859798d0358a0a1ef833953aba1/Screenshot%202025-06-16%20010646.png?raw=true)
